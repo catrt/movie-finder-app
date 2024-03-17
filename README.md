@@ -2,7 +2,7 @@
 
 API 활용하여 사이트 제작
 
-## 실제사이트 and 클론사이트
+## 배포 사이트
 
 영화 검색 사이트 : [DEMO](https://movie-finder-835cxn4a3-catrts-projects.vercel.app/#/)
 
