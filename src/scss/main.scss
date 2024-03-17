@@ -1,0 +1,10 @@
+@use "abstracts" as *;
+@use "components";
+@use "layout";
+
+body {
+  color: $color-white;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+  background-color: $color-black;
+}

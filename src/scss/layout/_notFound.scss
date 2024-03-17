@@ -1,0 +1,10 @@
+@use "../abstracts" as *;
+
+.not-found {
+  h2 {
+    font-size: 70px;
+    font-weight: 700;
+    color: $color-white-10;
+    text-align: center;
+  }
+}

@@ -1,0 +1,77 @@
+@use "../abstracts" as *;
+
+header {
+  padding: 20px 40px;
+  background-color: rgba(14, 17, 27, .9);
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+
+  .logo {
+    color: $color-white-50;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+
+    span {
+      color: $color-primary;
+    }
+  }
+  
+  nav {
+    ul {
+      display: flex;
+      gap: 14px;
+
+      li a {
+        color: $color-white-50;
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none;
+
+        &.active {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+
+  .user {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $color-area;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 40px;
+    margin: auto;
+    transition: .3s;
+    
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 14px 20px;
+
+    nav {
+      display: none;
+    }
+
+    .user {
+      right: 20px;
+    }
+  }
+}

@@ -1,0 +1,75 @@
+@use "../abstracts" as *;
+
+.the-movie {
+  color: $color-white-50;
+  display: flex;
+  gap: 70px;
+
+  .poster {
+    --width: 500px;
+    width: var(--width);
+    height: calc(var(--width) * 3 / 2);
+    border-radius: 10px;
+    background-size: cover;
+    background-color: $color-area;
+    flex-shrink: 0;
+  }
+
+  .specs {
+    flex-grow: 1;
+
+    .title {
+      color: $color-white;
+      font-size: 70px;
+      font-family: "Oswald", sans-serif;
+      line-height: 1;
+      margin-bottom: 30px;
+
+      &.skeleton {
+        height: 70px;
+      }
+    }
+
+    .labels {
+      color: $color-primary;
+      margin-bottom: 20px;
+
+      &.skeleton {
+        height: 30px;
+      }
+    }
+
+    .plot.skeleton {
+      width: 80%;
+      height: 400px;
+    }
+
+    h3 {
+      color: $color-white;
+      font-size: 20px;
+      font-family: "Oswald", sans-serif;
+      margin: 24px 0 6px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .the-movie {
+    gap: 30px;
+
+    .poster {
+      --width: 300px;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .the-movie {
+    display: block;
+
+    .specs .title {
+      font-size: 50px;
+      margin-top: 50px;
+    }
+  }
+}

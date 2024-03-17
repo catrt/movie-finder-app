@@ -1,0 +1,12 @@
+@use "../abstracts" as *;
+
+.view-more {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+
+  &.hide {
+    display: none;
+  }
+}

@@ -1,0 +1,20 @@
+@use "../abstracts" as *;
+
+.movie-list {
+  border-radius: 4px;
+  padding: 20px;
+  background-color: $color-area;
+
+  .movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .message {
+    color: $color-primary;
+    font-size: 20px;
+    text-align: center;
+  }
+}
