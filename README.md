@@ -4,11 +4,12 @@ API 활용하여 사이트 제작
 
 ## 배포 사이트
 
-영화 검색 사이트 : [DEMO](https://movie-finder-835cxn4a3-catrts-projects.vercel.app/#/)
+영화 검색 사이트 : [DEMO](https://movie-finder-app-steel.vercel.app/#/)
 
 ## 기간
 
 - 2024/03/13 ~ 2024/03/16
+- TypeScript Refactoring : 2024/03/18
 
 ## 사용 기술 스택
 
