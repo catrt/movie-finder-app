@@ -2,6 +2,7 @@
   "name": "movie-finder",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "dev": "parcel ./index.html",
     "build": "parcel build ./index.html",
@@ -12,7 +13,10 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
+    "@types/node-fetch": "^2.6.11",
+    "node-fetch": "^2.7.0",
     "parcel": "^2.12.0",
+    "typescript": "^5.4.2",
     "vercel": "^33.6.1"
   }
 }

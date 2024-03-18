@@ -8,7 +8,7 @@ export default class TheFooter extends Component {
     })
   }
   render() {
-    const { github, repository } = aboutStore
+    const { github, repository } = aboutStore.state
 
     this.el.innerHTML = /* html */ `
       <div>
